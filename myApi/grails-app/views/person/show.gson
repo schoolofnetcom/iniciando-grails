@@ -1,0 +1,7 @@
+import myapi.Person
+
+model {
+	Person person
+}
+
+json tmpl.person(person)

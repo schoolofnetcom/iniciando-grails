@@ -1,0 +1,8 @@
+import myapi.Person
+
+model {
+	Iterable<Person> personList
+}
+
+json tmpl.person(personList ?: [])
+
